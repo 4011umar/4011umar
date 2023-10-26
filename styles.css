@@ -29,4 +29,17 @@ h2 {
 
 p {
     font-size: 18px;
-    color: #
+    color: #666;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
